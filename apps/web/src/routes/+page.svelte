@@ -45,6 +45,7 @@
 						Please consider leaving a star on the
 						<a
 							href="https://github.com/adidoesnt/svelte-monorepo-template"
+							target="_blank"
 							class="text-primary-600 underline">GitHub repository</a
 						>
 						if you find this template useful.

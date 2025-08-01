@@ -398,6 +398,7 @@
 					<p class="text-sm sm:text-base text-primary-600 text-left">
 						Please consider leaving a star on the <a
 							href="https://github.com/adidoesnt/svelte-monorepo-template"
+							target="_blank"
 							class="text-primary-600 underline hover:text-primary-700 transition-colors"
 							>GitHub repository</a
 						> if you find this template useful.
