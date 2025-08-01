@@ -6,7 +6,7 @@
 </script>
 
 <div class="grid grid-rows-[auto_1fr_auto] w-[100dvw] h-[100dvh]">
-	<Header title="Docs Page" />
+	<Header title="Docs" />
 	<main class="flex flex-col w-full h-full justify-center items-center bg-primary-50">
 		{@render children()}
 	</main>
