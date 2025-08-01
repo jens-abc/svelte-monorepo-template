@@ -28,6 +28,11 @@
   "peerDependencies": {
     "svelte": "^5.0.0"
   },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@libs/tailwind-config": "workspace:*"
+  },
   "devDependencies": {
     "@libs/eslint-config": "workspace:*",
     "@libs/typescript-config": "workspace:*",
