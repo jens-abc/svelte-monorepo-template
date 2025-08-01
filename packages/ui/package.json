@@ -1,5 +1,5 @@
 {
-  "name": "@repo/ui",
+  "name": "@libs/ui",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -29,8 +29,8 @@
     "svelte": "^5.0.0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@libs/eslint-config": "workspace:*",
+    "@libs/typescript-config": "workspace:*",
     "@sveltejs/kit": "^2.25.1",
     "@sveltejs/package": "^2.4.0",
     "@sveltejs/vite-plugin-svelte": "^5.1.0",

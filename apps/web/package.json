@@ -16,11 +16,11 @@
 		"test:unit": "vitest"
 	},
 	"dependencies": {
-		"@repo/ui": "workspace:*"
+		"@libs/ui": "workspace:*"
 	},
 	"devDependencies": {
-		"@repo/eslint-config": "workspace:*",
-		"@repo/typescript-config": "workspace:*",
+		"@libs/eslint-config": "workspace:*",
+		"@libs/typescript-config": "workspace:*",
 		"@sveltejs/adapter-auto": "^4.0.0",
 		"@sveltejs/kit": "^2.25.1",
 		"@sveltejs/vite-plugin-svelte": "^5.1.0",
