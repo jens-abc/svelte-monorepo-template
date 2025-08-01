@@ -44,7 +44,7 @@
 					<p class="text-primary-600 mt-2">
 						Please consider leaving a star on the
 						<a
-							href="https://github.com/adidoesnt/monorepo-template"
+							href="https://github.com/adidoesnt/svelte-monorepo-template"
 							class="text-primary-600 underline">GitHub repository</a
 						>
 						if you find this template useful.

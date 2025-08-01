@@ -11,8 +11,8 @@ A modern monorepo template with Turborepo, SvelteKit, SkeletonUI (with TailwindC
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/adidoesnt/monorepo-template.git
-   cd monorepo-template
+   git clone https://github.com/adidoesnt/svelte-monorepo-template.git
+   cd svelte-monorepo-template
    ```
 
 2. Install `pnpm` (if not already installed)
