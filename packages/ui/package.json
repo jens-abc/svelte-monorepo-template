@@ -31,7 +31,9 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "@libs/tailwind-config": "workspace:*"
+    "@libs/tailwind-config": "workspace:*",
+    "bits-ui": "^2.9.3",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@libs/eslint-config": "workspace:*",

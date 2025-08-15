@@ -1,4 +1,7 @@
 <script lang="ts">
+
+	import {RadioGroup} from '@libs/ui';
+
 	let stats = {
 		users: 1247,
 		revenue: 45678,
@@ -21,6 +24,12 @@
 		{ month: 'May', sales: 25000, users: 1400 },
 		{ month: 'Jun', sales: 28000, users: 1550 }
 	];
+
+  const myItems = [
+    { value: "apple", label: "Apple" },
+    { value: "banana", label: "Banana" },
+    { value: "coconut", label: "Coconut"},
+  ];
 </script>
 
 <svelte:head>
@@ -32,6 +41,10 @@
 	class="min-h-screen bg-gradient-to-br from-primary-50 to-primary-100 w-full"
 	data-theme="CustomThemeExample"
 >
+
+
+
+
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
 		<!-- Header -->
 		<header class="mb-8">
@@ -51,6 +64,7 @@
 						if you find this template useful.
 					</p>
 				</div>
+				<RadioGroup items={myItems} name="favoriteFruit" />
 				<div class="mt-4 sm:mt-0 flex gap-3">
 					<button
 						class="px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors"
